@@ -1,7 +1,7 @@
 \documentclass[titlepage]{article}
 \renewcommand*{\familydefault}{\sfdefault}
 \begin{document}
-\title{//wintermute: A Fan-Made Multiplayer Expansion of Android:Netrunner}
+\title{//wintermute: A Fan-Made Multiplayer Expansion for Android:Netrunner}
 \author{Andrew Swanson}
 \date{\today\\v0.0.1}
 \maketitle
@@ -16,7 +16,7 @@
 		While corporation players try to score points by advancing their agendas, they have to guard their intellectual properties from the elite and subversive hackers known as netrunners.''
 	\end{quotation}
 
-While \emph{A:NR} is a fantastic game with exceptional thematic flavor, it doesn't quite capture the classic heist trappings of the cyberpunk genre it is lifted from. \emph{//wintermute} seeks to remedy this by appending rules for more than two players in addition to expanding story-telling mechanics. Three runners will face off against a single corporation, each assuming a specialized role on a team bent on disrupting the corp's plans. The corporation will be trying to fend off the runner team as it executes a multi-step secret plan, trying to distract and hoodwink the runners before the objectives are revealed.
+	While \emph{A:NR} is a fantastic game with exceptional thematic flavor, it doesn't quite capture the classic heist trappings of the cyberpunk genre it is lifted from. \emph{//wintermute} seeks to remedy this by appending rules for more than two players in addition to expanding story-telling mechanics. Three runners will face off against a single corporation, each assuming a specialized role on a team bent on disrupting the corp's plans. The corporation will be trying to fend off the runner team as it executes a multi-step secret plan, trying to distract and hoodwink the runners before the objectives are revealed.
 
 	\emph{//wintermute} is intended to be a freely distributed fan expansion that can be modified and enhanced by \emph{A:NR} fans anywhere. By default \emph{//wintermute} will include this rulebook, 3-5 play scenarios (though more should be coming all the time!), and a small amount of printable play materials for the base game and each scenario. 
 
@@ -24,6 +24,10 @@ While \emph{A:NR} is a fantastic game with exceptional thematic flavor, it doesn
 
 While the bulk of rules for \emph{//wintermute} are the same as those for vanilla \emph{A:NR}, there are several important differences, namely in deckbuilding and the default action structure for both sides. 
 \subsection{Runners}
+
+In order to accomodate multiple players, many rules have changed on the runner side, affecting everything from deckbuilding to basic game actions.
+
+\subsubsection{Deckbuilding}
 
 The most obvious difference from the base game is that multiple runners will be working as a team to take down the corporation, unlike the base game where players face off one on one. Like any good piece of heist fiction, the ``thieves`` all have their own specialization to contribute to the team. In this case, those specialties are:
 \begin{itemize}
@@ -33,7 +37,42 @@ The most obvious difference from the base game is that multiple runners will be 
 		Software may be the key piece that enables the art of running, but all software needs metal to do the actual computation. The \textbf{Techie} is the team's \textbf{Hardware} specialist and keeps operations running smoothly. She can get the best deals on off-the-shelf components and knows exactly how to resurrect a \textbf{Console} that had been left for dead. The \textbf{Techie} is the only runner allowed to have \textbf{Hardware} in their deck.
 	\item \textbf{The Face}-
 		The other members might be more comfortable at a keyboard or a workbench, but the \textbf{Face} is in his element pounding pavement, looking for \textbf{Resources} out in meatspace that the team can use. When cash, names, or favors need to change hands the \textbf{Face} knows just the guy to take care of it. The other runners may not include \textbf{Resources} in their decks, making the \textbf{Face} a necessity for those tricky handshake transactions.
+
 \end{itemize}
+
+In short, each player on the runner side will be assuming a more specialized role than a runner in the base \emph{A:NR} game with very different restrictions on what cards can be included in a deck. All runner roles may include \textbf{Event} cards and influence requirements are the same as in the 2 player game. As you may expect, these more restrictive deckbuilding rules mean that the basic actions available to runners have changed as well.
+
+\subsubsection{Runner Actions}
+
+The following actions have not changed from the base \emph{A:NR} game:
+
+\begin{itemize}
+	\item (Click):Receive 1 (Credit)
+	\item (Click):Draw one card from the stack
+	\item (Click):Play an event
+	\item (Click), 2(Credit): Remove a tag
+	\item (Click):Trigger (Click) ability on card you control
+\end{itemize}
+
+The following actions have been modified for \emph{//wintermute}:
+
+\begin{itemize}
+	\item (Click):Install a program, resource, or piece of hardware
+
+		Because each runner will not be allowed in include 2 of the classes of installable hardware runners will be able to declare whose rig the installed card will go in to. The install cost of the card is paid by the runner performing the installation but the card is considered to be owned by the runner receiving the installed card for the purposes of card effects. 
+	\item (Click), 1(Credit):Transfer any number of credits to another runner
+
+		Since each runner has their own supply of credits there may be situations where 1 runner finds themselves flush with cash with nothing to spend it on. This action allows for one runner to serve as the ``bank'' for the team or other novel strategies.
+	\item (Click),(Click):Transfer one (Click) to another runner.
+
+		This action is intended to increase flexibility during runner turns, especially during critical moments
+	\item (Click):Start a run and encounter the outermost piece of ICE protecting the target server
+	\item (Click):Encounter ICE currently being approached (does not apply on outermost ICE protecting server)
+
+		The structure of running is the biggest departure from \emph{A:NR} in the runner action structure. \emph{//wintermute} is designed to be a more cinematic implemenation of \emph{Netrunner's} base gameplay, creating more last-minute triumphs and close shaves. By breaking runs down in to individual ICE encounters \emph{//wintermute} allows for responses and counter reponses by both sides during the process of a run. Runs become a much larger operation requiring more planning on the part of the runners and opens the possibility for ``emergency'' reponses by the corporation
+\end{itemize}
+
+Runner paid abilities are largely unchanged from the basic game. Any runner may trigger any of the paid abilities they control during the normal paid ability windows. Any effect targeting a single runner may only target the runner that controls the effect. Damage and tag effects created by runner cards only affect the runner that controls the effect. Each runner may have a single copy of a Unique card installed in their rig but multiple copies may be installed for the team.
 \section{Materials}
 This is where the needed materials will go. This will mostly be print and play stuff, with requirements for some netrunner cards.
 \end{document}
