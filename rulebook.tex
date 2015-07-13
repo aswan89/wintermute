@@ -77,13 +77,17 @@ The following actions have been modified for \emph{//wintermute}:
 
 		This action is intended to increase flexibility during runner turns, especially during critical moments
 
-	\item (Click):Start a run and encounter the outermost piece of ICE protecting the target server
-	\item (Click):Encounter ICE currently being approached (does not apply on outermost ICE protecting server)
+	\item (Click):Continue/Initiate a Run 
+		The most fundamental change to the runner action structure is how runs are initiated and resolved. The intent is to require the runner to spend one click to encounter each piece of ICE in the course of a run, making runs much larger undertakings that need extra planning and cooperation by all members of the runner team. In practice this leaves a number of possibilities for confusion and as such we will be using the Fantasy Flight FAQ ``Timing Structure of a Run'' as a starting point. 
+		\begin{enumerate}
+			\item Step 1 remains unchanged, the runner initiates a run and declares the attacked server. To simplify the rules the runner is not considered to have spent a click yet, but encountering the outermost piece of ICE on a server is mandatory and will require spending a click. 
+			\item Step 2 is the fuzziest within \emph{//wintermute}. If the currently approached piece of ICE is the outermost piece of ICE on the server, proceed directly thorugh the chart. If not, the runner will start at step 2.1 The runner may spend any amount of time at step 2.1, allowing his teammate's to take their turns and spend clicks as they see fit. If the runner does not have any unspent clicks he may even pass the turn to the corporation. Eventually he will need to proceed to step 2.2. If he chooses to jack out the run immediately ends and goes to step 6. If he chooses to continue he \textbf{must spend a click} to proceed to step 2.3. At this point the chart proceeds as normal
+		\end{enumerate}
 
-		The structure of running is the biggest departure from \emph{A:NR} in the runner action structure. \emph{//wintermute} is designed to be a more cinematic implemenation of \emph{Netrunner's} base gameplay, creating more last-minute triumphs and close shaves. By breaking runs down in to individual ICE encounters \emph{//wintermute} allows for responses and counter responses by both sides during the process of a run. Runs become a much larger operation requiring more planning on the part of the runners and opens the possibility for ``emergency'' responses by the corporation
+
 \end{itemize}
 
-Runner paid abilities are largely unchanged from the basic game. Any runner may trigger any of the paid abilities they control during the normal paid ability windows. Any effect targeting a single runner may only target the runner that controls the effect. Damage and tag effects created by runner cards only affect the runner that controls the effect. Each runner may have a single copy of a Unique card installed in their rig but multiple copies may be installed across the team.
+Runner paid abilities are largely unchanged from the basic game. Any runner may trigger any of the paid abilities they control during the normal paid ability windows. Any effect targeting a single runner may only target the runner that controls the effect. Damage and tag effects created by runner cards only affect the runner that controls the effect. Each runner may have only a single copy of a Unique card installed in their rig but multiple copies may be installed across the team.
 
 \subsection{Corporation}
 
@@ -113,6 +117,8 @@ The following actions do not have a restriction and may be performed multiple ti
 \end{itemize}
 
 To assist with differentiating between the two classes of actions the restricted actions can be printed on their own ``tokens'' that can be picked from a pool when the relevant action is being taken.
+
+Paid abilities may be used during the same windows as the base game, with one exception due to the change to multi-stage running. During an on
 \section{Materials}
 This is where the needed materials will go. This will mostly be print and play stuff, with requirements for some netrunner cards.
 \end{document}
