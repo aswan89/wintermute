@@ -1,0 +1,268 @@
+\documentclass[titlepage]{article}
+\renewcommand*{\familydefault}{\sfdefault}
+\begin{document}
+\title{//wintermute: A Fan-Made Multiplayer Expansion for Android:Netrunner}
+\author{Andrew Swanson}
+\date{\today\\v0.0.1}
+\maketitle
+\section{Introduction}
+
+	In the words of Fantasy Flight Games:
+
+	\begin{quotation}
+
+		``\emph{Android:Netrunner} is a two-player Living Card Game set in a dystopian, cyberpunk future where monolithic megacorps own and control the vast majority of human interests.
+
+		While corporation players try to score points by advancing their agendas, they have to guard their intellectual properties from the elite and subversive hackers known as netrunners.''
+	\end{quotation}
+
+	While \emph{A:NR} is a fantastic game with exceptional thematic flavor, it doesn't quite capture the classic heist trappings of the cyberpunk genre it is lifted from. \emph{//wintermute} seeks to remedy this by appending rules for more than two players in addition to expanding story-telling mechanics. Three runners will face off against a single corporation, each assuming a specialized role on a team bent on disrupting the corp's plans. The corporation will be trying to fend off the runner team as it executes a multi-step secret plan, trying to distract and hoodwink the runners before the objectives are revealed.
+
+	\emph{//wintermute} is intended to be a freely distributed fan expansion that can be modified and enhanced by \emph{A:NR} fans anywhere. By default \emph{//wintermute} will include this rulebook, 3-5 play scenarios (though more should be coming all the time!), and a small amount of printable play materials for the base game and each scenario.
+
+\section{New Rules and Differences}
+
+ 	While the bulk of rules for \emph{//wintermute} are the same as those for vanilla \emph{A:NR}, there are several important differences, namely in deckbuilding and the default action structure for both sides.
+
+	\subsection{Scoring and Win Conditions}
+
+		One of \emph{//wintermute's} main design goals is to create a more cinematic game experience. With this in mind the static scoring goal of 7 agenda points has been eliminated in favor of a story-driven objective system defined in each scenario. Objectives will vary wildly based on the intentions of the scenario's designer but typicallly will come on printable cards. Each objective card will have a \textbf{public} side that is freely visible to both sides and a \textbf{secret} side that the corp may look at at any time but is not viewable by the Runners. When a runner makes a successful run on HQ, they may reveal the \textbf{secret} side of the current objective instead of accessing cards.
+
+		Either side of the objective can have any variety of conditions that can be met by one side or the other by performing certain actions during the course of the game, ranging from scoring or stealing agendas to trashing assets to dealing damage. (Note: it is the responsibility of the corporation to monitor the secret side of the objective card and notify the runner team when objective conditions have been met). When those conditions are met the condition's effects immediately trigger, usually resulting in replacing the objective card with a new objective. Some objective conditions will result in a win for one side when triggered. Each side will usually have at least one condition on an objective card and triggering that condition usually results in a (significant) advantage for that side.
+
+	\subsection{Runners}
+
+		In order to accomodate multiple players, many rules have changed on the runner side, affecting everything from deckbuilding to basic game actions.
+
+		\subsubsection{Deckbuilding}
+
+			The most obvious difference from the base game is that multiple runners will be working as a team to take down the corporation, unlike the base game where players face off one on one. Like any good piece of heist fiction, the ``thieves'' all have their own specialization to contribute to the team. In this case, those specialties are:
+
+			\begin{itemize}
+
+				\item \textbf{The Coder}-
+
+					This runner spends more time at a terminal than anywhere else, writing and installing software ranging from icebreakers to viruses to utilities. The player taking the role of \textbf{Coder} is the only runner allowed to include \textbf{Program} cards in their deck. This makes them a natural fit for being the team's lead on actual runs against the corporation, but time spent running is time spent not developing. Finding ways to get crucial software into the hands of the other runners will be a key skill for a good \textbf{Coder}.
+
+				\item \textbf{The Techie}-
+
+					Software may be the key piece that enables the art of running, but all software needs metal to do the actual computation. The \textbf{Techie} is the team's \textbf{Hardware} specialist and keeps operations running smoothly. She can get the best deals on off-the-shelf components and knows exactly how to resurrect a \textbf{Console} that has been left for dead. The \textbf{Techie} is the only runner allowed to have \textbf{Hardware} in their deck.
+
+				\item \textbf{The Face}-
+
+					The other members might be more comfortable at a keyboard or a workbench, but the \textbf{Face} is in his element pounding pavement, looking for \textbf{Resources} out in meatspace that the team can use. When cash, names, or favors need to change hands the \textbf{Face} knows just the guy to take care of it. The other runners may not include \textbf{Resources} in their decks, making the \textbf{Face} a necessity for those tricky handshake transactions.
+
+			\end{itemize}
+
+				In short, each player on the runner side will be assuming a more specialized role than a runner in the base \emph{A:NR} game with very different restrictions on what cards can be included in a deck. All runner roles may include \textbf{Event} cards and influence requirements are the same as in the 2 player game. Runners are also still restricted to 3 copies of a card in their deck. As you may expect, these more restrictive deckbuilding rules mean that the basic actions available to runners have changed as well.
+
+		\subsubsection{Runner Actions}
+
+			Because the corporation will be facing off against 3 runners at once the number of clicks granted to each runner at the start of turn has been lowered to 2. Which action to take is exclusively the decision of the runner performing the action, though collaboration is certainly encouraged. Runner actions may be ordered however the team decides with any disagreements between two runners as to priority being decided by the third runner. The following actions have not changed from the base \emph{A:NR} game:
+
+			\begin{itemize}
+
+				\item (Click):Receive 1 (Credit)
+				\item (Click):Draw one card from the stack
+				\item (Click):Play an event
+				\item (Click), 2(Credit): Remove a tag
+				\item (Click):Trigger (Click) ability on card you control
+
+			\end{itemize}
+
+			The following actions have been modified for \emph{//wintermute}:
+
+			\begin{itemize}
+
+				\item (Click):Install a program, resource, or piece of hardware
+
+					Because each runner will not be allowed to include 2 types of installable cards in their decks runners will be able to declare whose rig the installed card will go in. The install cost of the card is paid by the runner performing the installation but the card is considered to be owned by the runner receiving the installed card for the purposes of card effects.
+
+				\item (Click), 1(Credit):Transfer any number of credits to another runner
+
+					Since each runner has their own supply of credits there may be situations where 1 runner finds themselves flush with cash with nothing to spend it on. This action allows for one runner to serve as the ``bank'' for the team or other novel strategies.
+
+				\item (Click),(Click):Transfer one (Click) to another runner.
+
+					This action is intended to increase flexibility during runner turns, especially during critical moments
+
+				\item (Click):Continue/Initiate a Run
+
+					The most fundamental change to the runner action structure is how runs are initiated and resolved. The intent is to require the runner to spend one click to encounter each piece of ICE in the course of a run, making runs much larger undertakings that need extra planning and cooperation by all members of the runner team. In practice this leaves a number of possibilities for confusion and as such we will be using the Fantasy Flight FAQ ``Timing Structure of a Run'' as a starting point.
+
+					\begin{enumerate}
+
+						\item Step 1 remains unchanged, the runner initiates a run and declares the attacked server. To simplify the rules the runner is not considered to have spent a click yet, but encountering the outermost piece of ICE on a server is mandatory and will require spending a click.
+
+						\item Step 2 is the fuzziest within \emph{//wintermute}. If the currently approached piece of ICE is the outermost piece of ICE on the server, proceed directly thorugh the chart. If not, the runner will start at step 2.1 The runner may spend any amount of time at step 2.1, allowing his teammate's to take their turns and spend clicks as they see fit. If the runner does not have any unspent clicks he may even pass the turn to the corporation. Eventually he will need to proceed to step 2.2 since \textbf{runners at stage 2.1 of a run may not spend clicks on other abilities.} If he chooses to jack out the run immediately ends and goes to step 6. If he chooses to continue he \textbf{must spend a click} to proceed to step 2.3. At this point the chart proceeds as normal.
+
+					\end{enumerate}
+
+			\end{itemize}
+
+			Runner paid abilities are largely unchanged from the basic game. Any runner may trigger any of the paid abilities they control during the normal paid ability windows, with an exception for the window at step 2.1 of a run. Because a runner could spend a significant amount of time at step 2.1 the window is closed as soon as priority has been passed by both sides on the initial approach. Any effect targeting a single runner may only target the runner that controls the effect. Damage and tag effects created by runner cards only affect the runner that controls the effect. Each runner may have only a single copy of a Unique card installed in their rig but multiple copies may be installed across the team.
+
+	\subsection{Corporation}
+
+		The changes in \emph{//wintermute} aren't confined to the runner side. The corporation has changes to the flow of the turn in addition to substantial changes to deckbuilding.
+
+		\subsubsection{Deckbuilding}
+
+			While step 1 of starting a game of \emph{A:NR} is to build a deck, \emph{//wintermute} corporations must first build the scenario to be used in the upcoming game. The corporation in \emph{//wintermute} takes the dual role of player and gamemaster for the runner team, building the scenario from a simple set of choices in a given scenario package. A scenario will have a predefined number of phases to be played, but the actual objectives for each phase will be selected by the corporation before the game starts. A well designed scenario will give the corporation between 2-4 objectives to choose per phase, each with wildly different paths to success for both sides but still dripping with thematic flavor. These objectives will likely have a large impact on the deck building strategy and as such should be chosen before deckbuilding begins. In some cases objectives may create additional deckbuilding restrictions for the corporation like required cards or deck size restrictions.
+
+			Unlike the runners, the corporation is not restricted in what types of cards they may include in their decks. Instead scenarios will define which cards must be included in the corporation deck and in what quantity. Some scenarios may require that cards are set aside and only shuffled in when specific objective conditons are met. Cards set aside in this manner are considered part of the deck for the purposes of deckbuilding (deck size, influence, agenda point count) but should be considered ``removed from play'' until shuffled in to R\&D. Vanilla \emph{A:NR} rules for influence limits, minimum deck sizes, copy restrictions, and minimum agenda point counts still apply though specific scenarios may bend these rules as needed.
+
+		\subsubsection{Action Structure}
+
+			Unlike the runner the corporation has had no major changes to their base actions. The corporation still begins their turn with a mandatory card draw and will lose the game if they cannot perform this draw action. The changes have been implemented in how many times the corporation may perform a certain action each turn. The following actions have been restricted to being usable only once per turn, though card abilities can still be used to achieve the same effects more than once per turn.
+
+			\begin{itemize}
+
+				\item (Click):Install an agenda, asset, upgrade, or piece of ICE. This action is unrestricted during the corporations first turn.
+
+				\item (Click):Play an Operation
+
+				\item (Click):Draw one card from R\&D
+
+				\item (Click), 1(Credit):Advance a card
+
+			\end{itemize}
+
+			The following actions do not have a restriction and may be performed multiple times each turn.
+
+			\begin{itemize}
+
+				\item (Click):Gain 1 (Credit)
+
+				\item (Click), 2(Credit):Trash a resource in \textbf{a runner's} rig if \textbf{that} runner is tagged. (Emphasis added to clarify between multiple runners)
+
+				\item (Click),(Click),(Click):Purge \textbf{All} virus counters
+
+				\item Trigger a (Click) ability on an active card
+
+			\end{itemize}
+
+			To assist with differentiating between the two classes of actions the restricted actions can be printed on their own ``tokens'' that can be picked from a pool when the relevant action is being taken.
+
+			Paid abilities may be used during the same windows as the base game, with one exception due to the change to multi-stage running. Step 2.1 of the run should be considered closed after both sides have passed priority during the inital approach to the piece of ice. Even though other click abilities might be used while a runner is at stage 2.1 of the run the ability window should be considered to be closed.
+
+\section{Materials}
+
+	\subsection{Building Good Scenarios}
+
+		Because \emph{//wintermute} is focused on being more explicitly story-driven than \emph{A:NR} a loose plot or story hook should be in mind when beginning the scenario design process. Once the hook is in place, the game should be divided in to 3-5 phases, each with its own title and flavor text explaining the bigger picture of what is happening around the game in progress. These phase titles should be applicable to any objective that is packaged with the phase since it will form the public side of the objective card during play.
+
+		Once the phases have been determined the objectives should be created for each side. The runner and the corporation must have at least one objective to achieve during a phase and completing an objective should force the beginning of the next phase of the scenario. Care should be taken during objective creation to ensure that objectives can not resolve simultaneously. Well designed objectives will confer benefits to the side that achieves the objective that support the story and gameplay plan of the scenario. Very well designed objectives will create gameplay incentives for both sides to oppose each other's actions and plans.
+
+		Due to the information assymmetry inherent in \emph{A:NR} and \emph{//wintermute} public objectives should be difficult for the runner to achieve or give the corporation a strong advantage if achieved. Public objectives can also enable separate private objectives for either side by influencing runner behavior in some fashion.
+
+	\subsection{Scenarios}
+
+		Below are three basic scenarios for your first games of \emph{//wintermute}. These will hopefully get your creative juices flowing, inspiring you to create and share your own scenarios in addition to playing them.
+
+		\subsubsection{What Lies Beneath}
+
+			\paragraph{Introduction:}
+
+				\textbf{What Lies Beneath} tells the story of a newly acquired subsidiary of the Weyland Consortium: Geostrategic Research and Neothermal Development Laboratories, or GRNDL for short. The deal has caused massive controversy since it was negotiated almost entirely out of the public eye, leaving many to speculate as to the true strategy behind Weyland's hasy acquisition of the company. Financial analysts have praised the move as Weyland's revenue for the past two quarters has been considerably higher than forecasted, despite the bad publicity generated by the deal. Insiders and anonymous sources claim that operations have barely started to ramp up at the offshore facility leading to more rumors about what may be coming.
+
+			\paragraph{Phase 1: Non-Liquid Assets}
+
+				While secrecy still shrouds the ultimate purpose of the GRNDL offshore facility, financial analysts have taken notice of Weyland's unusual liquidation of mineral assets, building up enormous cash reserves. For what is anyone's guess.
+
+				\begin{itemize}
+
+					\item Package 1
+
+						\begin{itemize}
+
+							\item \textbf{Deck Requirements:}The corp must include 3 copies of GRNDL Refinery in their deck.
+
+							\item \textbf{Corp Objective:}Gain 16 credits from using the ability on GRNDL Refinery. If successful, gain 10 credits and begin phase 2.
+
+							\item \textbf{Runner Objective:}Trash a GRNDL Refinery with at least 2 advancement counters on it or trash 3 copies of GRNDL Refinery. If successful, force the Corp to lose 5 credits and begin phase 2.
+
+						\end{itemize}
+
+					\item Package 2
+
+							\begin{itemize}
+
+								\item \textbf{Deck Requirements:}The corp must include 3 copies of Melange Mining Corp in their deck.
+
+								\item \textbf{Corp Objective:}Use the ability on Melange Mining Corp twice. If successful, gain 10 credits and begin phase 2.
+
+								\item \textbf{Runner Objective:}Trash a rezzed Melange Mining Corp or trash 3 copies of Melange Mining Corp. If successful, force the corp to lose 5 credits and begin phase 2.
+
+						\end{itemize}
+
+				\end{itemize}
+
+			\paragraph{Phase 2: Aggressive Re-Modeling}
+
+				The Weyland Corporation works every day to preserve and protect the rich cultural history of neighborhoods and villages around the world. Such old structures often do not meet modern building codes, however, but thankfully Weyland is here to help. When disaster strikes, no matter the source, Weyland stands ready to rebuild, using the newest materials and technology for a very modest fee.
+
+				\begin{itemize}
+
+					\item Package 1
+
+						\begin{itemize}
+
+							\item \textbf{Deck Requirements:}The corp must shuffle 3 copies of Geothermal Fracking into their deck at the beginning of the phase.
+
+							\item \textbf{Corp Objective:}Possess a scored copy of Geothermal Fracking with no agenda counters on it. If successful, trash up to 3 non-virtual Resources and begin phase 3.
+
+							\item \textbf{Runner Objective:}Steal 2 copies of Geothermal Fracking. If successful, give the corp 3 bad publicity, and begin phase 3.
+
+						\end{itemize}
+					\item Package 2
+
+						\begin{itemize}
+
+							\item \textbf{Deck Requirements:}The corp must shuffle 3 copies of Scorched Earth into their deck at the beginning of the phase.
+
+							\item \textbf{Corp Objective:}Do 8 meat damage with Scorched Earth. If successful, trash 3 up to 3 non-virtual resources, take 3 bad publicity, and begin phase 3.
+
+							\item \textbf{Runner Objective:}Access a copy of Scorched Earth 2 times. If successful, give the corp 3 bad publicity and begin phase 3.
+
+						\end{itemize}
+
+				\end{itemize}
+
+			\paragraph{Phase 3: Real Estate Opportunities}
+
+				In the wake of recent disasters Weyland emergency recovery teams are already being dispatched to build temporary housing while more permanent structures are constructed by Weyland susidiaries.
+
+				\begin{itemize}
+
+					\item Package 1
+
+						\begin{itemize}
+
+							\item \textbf{Deck Requirements:}The corp must shuffle three copies of Oaktown Renovation into their deck at the beginning of the phase.
+
+							\item \textbf{Public Objective:}The corp loses if it has at least 6 bad publicity.
+
+							\item \textbf{Corp Objective:}Gain at least 14 credits from advancing Oaktown Renovation. If successful, the corp wins the game.
+
+							\item \textbf{Runner Objective:}Steal 2 copies of Oaktown Renovation. If successful, the runners win the game.
+
+						\end{itemize}
+
+					\item Package 2
+
+						\begin{itemize}
+
+							\item \textbf{Deck Requirements:}The corp must shuffle three copies of Gila Hands Arcology into their deck at the beginning of the phase.
+
+							\item \textbf{Public Objective:}The corp loses if it has at least 6 bad publicity.
+
+							\item \textbf{Corp Objective:}Score 3 copies of Gila Hands Arcology. If successful, the corp wins the game.
+
+							\item \textbf{Runner Objective:}Steal 3 copies of Gila Hands Arcology. If successfil, the runners win the game.
+
+						\end{itemize}
+
+				\end{itemize}
+
+\end{document}
